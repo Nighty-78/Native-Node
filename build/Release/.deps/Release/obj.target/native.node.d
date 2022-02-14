@@ -1,0 +1,1 @@
+cmd_Release/obj.target/native.node := g++ -o Release/obj.target/native.node -shared -pthread -rdynamic -m64  -Wl,-soname=native.node -Wl,--start-group Release/obj.target/native/src/main.o Release/obj.target/native/src/core.o Release/obj.target/node_modules/node-addon-api/nothing.a -Wl,--end-group 

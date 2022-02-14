@@ -1,0 +1,30 @@
+{
+  "name": "@nighty78/native-node",
+  "version": "1.0.0",
+  "description": "Native C++ addon utils for building a Node.js CLI",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "npm run build && node js/test.js",
+    "build": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nighty-78/Native-Node.git"
+  },
+  "keywords": [
+    "Native",
+    "node",
+    "js"
+  ],
+  "author": "nighty78",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/Nighty-78/Native-Node/issues"
+  },
+  "homepage": "https://github.com/Nighty-78/Native-Node#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^4.3.0"
+  }
+}
